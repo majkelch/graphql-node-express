@@ -1,0 +1,29 @@
+{
+  "name": "graphql-node-express",
+  "version": "1.0.0",
+  "description": "Based on online tutorial",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majkelch/graphql-node-express.git"
+  },
+  "author": "Michał Chruściel",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/majkelch/graphql-node-express/issues"
+  },
+  "homepage": "https://github.com/majkelch/graphql-node-express#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-standard": "^12.0.0",
+    "jest": "^23.6.0"
+  }
+}
